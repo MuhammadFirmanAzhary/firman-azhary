@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firman azhary</title>
+    <!-- link favicon -->
+    <link rel="shortcut icon" href="img/Update_foto.png" type="image/x-icon">
+    <!-- box icon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- link custom css -->
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+   
+
+</head>
+
+<body>
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">F<span>A</span></a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#welcome-hero" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section id="welcome-hero" class="welcome-hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="header-text">
+                        <h2>hi <span>,</span> i am <br> Firman Azhary <span>.</span> </h2>
+                        <p>IT teacher and Web developer</p>
+                        <a href="assets/download/browney.txt" download class="btn">Download CV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section><!--/.welcome-hero-->
+    <!-- end hero -->
+    <!-- home section design -->
+    <section class="home" id="about">
+        <div class="home-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>I'm a <span class="multiple-text"></span></h3>
+            <p>Hello! I am a Software Engineering student at Politeknik IDN, where I am deeply passionate about learning
+                new technologies and enhancing my programming skills. I also work as an IT teacher, guiding students in
+                web development and other IT-related subjects. As a Web Developer, I create functional and visually
+                appealing websites. Alongside these roles, I take on freelance projects to further expand my experience
+                in the tech industry
+            </p>
+        </div>
+        <div class="home-img">
+            <img src="img/home.jpeg" alt="">
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/muhammad-firman-azhary-351202247/"><i class='bx bxl-linkedin-square'></i></a>
+                <a href="https://www.instagram.com/firmanazhary/"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://github.com/MuhammadFirmanAzhary"><i class='bx bxl-github'></i></a>
+                <a href="https://www.youtube.com/@azhary7875"><i class='bx bxl-youtube'></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section design -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+        <div class="portfolio-carousel">
+            <div class="carousel-box">
+                <img src="img/portfolio-1.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>IndoTravel</h4>
+                    <p>IndoTravel is a modern and responsive landing page for a travel website, showcasing beautiful destinations across Indonesia.</p>
+                    <a href="https://indotravel-sooty.vercel.app/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="carousel-box">
+                <img src="img/portfolio-2.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Explore Tracking Sentul</h4>
+                    <p>Involved in the development and design of the Explore Tracking Sentul project, contributing to both the technical and creative aspects of the application</p>
+                    <a href="https://exploretrackingsentul.com/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="carousel-box">
+                <img src="img/portfolio3.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>UI UX Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="carousel-box">
+                <img src="img/portfolio4.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Android App</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="carousel-box">
+                <img src="img/portfolio5.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="carousel-box">
+                <img src="img/portfolio6.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>UI UX Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading"> Contact <span>Me!</span></h2>
+        <form id="whatsappForm">
+            <div class="input-box">
+                <input type="text" id="fullName" placeholder="Full Name">
+                <input type="email" id="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="tel" id="mobileNumber" placeholder="Mobile number">
+                <input type="text" id="emailSubject" placeholder="Email Subject">
+            </div>
+            <textarea id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="button" value="Send Message" class="btn" onclick="sendMessage()">
+        </form>
+    </section>
+    <!-- footer section design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by azhary | All Right Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#welcome-hero"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+    <!--typed js  -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
