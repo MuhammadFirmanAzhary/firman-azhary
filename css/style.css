@@ -75,7 +75,6 @@
         width: 100%;
         padding: 2rem 9%;
         background: transparent;
-
         transition: 0.3s ease;
         display: flex;
         justify-content: space-between;
@@ -249,6 +248,7 @@
     }
 
     .heading {
+        margin-bottom: 20px;
         text-align: center;
         font-size: 4.5rem;
     }
@@ -491,7 +491,12 @@
         #menu-icon {
             display: block;
         }
-
+        #welcome-hero .header-text h2 {
+            font-size: 30px;
+            line-height: 1.2;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
         .navbar {
             position: absolute;
             top: 100%;
@@ -520,8 +525,7 @@
         }
 
         .home-content {
-            text-align: center;
-
+            text-align: left;
             max-width: 100%;
 
         }
@@ -534,7 +538,6 @@
 
         .home-img img {
             width: 80vw;
-
             height: auto;
 
         }
